@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		607F95F81358B8310001F53D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607F95F71358B8310001F53D /* Cocoa.framework */; };
+		607F96011358B8310001F53D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 607F95FF1358B8310001F53D /* InfoPlist.strings */; };
+		607F96041358B8310001F53D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96031358B8310001F53D /* main.m */; };
+		607F96081358B8310001F53D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607F96061358B8310001F53D /* MainMenu.xib */; };
+		607F960B1358B8310001F53D /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 607F960A1358B8310001F53D /* rb_main.rb */; };
+		607F960D1358B8310001F53D /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 607F960C1358B8310001F53D /* AppDelegate.rb */; };
+		607F96171358BBC20001F53D /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607F96161358BBC20001F53D /* MacRuby.framework */; };
+		607F96491358BE390001F53D /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607F96481358BE390001F53D /* Carbon.framework */; };
+		607F964D1358BE6F0001F53D /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607F964C1358BE6F0001F53D /* ShortcutRecorder.framework */; };
+		607F964F1358C00E0001F53D /* HotkeyCallbackController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 607F964E1358C00E0001F53D /* HotkeyCallbackController.rb */; };
+		607F965A1358C20A0001F53D /* ShortcutRemoteBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96591358C20A0001F53D /* ShortcutRemoteBridge.m */; };
+		607F96921358C7FD0001F53D /* SGHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F968B1358C7FD0001F53D /* SGHotKey.m */; };
+		607F96931358C7FD0001F53D /* SGHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F968D1358C7FD0001F53D /* SGHotKeyCenter.m */; };
+		607F96941358C7FD0001F53D /* SGKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F968F1358C7FD0001F53D /* SGKeyCodeTranslator.m */; };
+		607F96951358C7FD0001F53D /* SGKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96911358C7FD0001F53D /* SGKeyCombo.m */; };
+		607F96991358D2360001F53D /* next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 607F96961358D2360001F53D /* next.scpt */; };
+		607F969A1358D2360001F53D /* toggle_play_pause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 607F96971358D2360001F53D /* toggle_play_pause.scpt */; };
+		607F969B1358D2360001F53D /* previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 607F96981358D2360001F53D /* previous.scpt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		607F95F31358B8310001F53D /* spotify remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "spotify remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607F95F71358B8310001F53D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		607F95FE1358B8310001F53D /* spotify remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spotify remote-Info.plist"; sourceTree = "<group>"; };
+		607F96001358B8310001F53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		607F96021358B8310001F53D /* spotify remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "spotify remote-Prefix.pch"; sourceTree = "<group>"; };
+		607F96031358B8310001F53D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		607F96071358B8310001F53D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		607F960A1358B8310001F53D /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		607F960C1358B8310001F53D /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		607F96161358BBC20001F53D /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		607F96481358BE390001F53D /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		607F964C1358BE6F0001F53D /* ShortcutRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShortcutRecorder.framework; path = ../3rdparty/SGHotKeysLib/Frameworks/ShortcutRecorder.framework; sourceTree = "<group>"; };
+		607F964E1358C00E0001F53D /* HotkeyCallbackController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = HotkeyCallbackController.rb; path = Classes/controller/HotkeyCallbackController.rb; sourceTree = "<group>"; };
+		607F96581358C20A0001F53D /* ShortcutRemoteBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutRemoteBridge.h; sourceTree = "<group>"; };
+		607F96591358C20A0001F53D /* ShortcutRemoteBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortcutRemoteBridge.m; sourceTree = "<group>"; };
+		607F968A1358C7FD0001F53D /* SGHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHotKey.h; sourceTree = "<group>"; };
+		607F968B1358C7FD0001F53D /* SGHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHotKey.m; sourceTree = "<group>"; };
+		607F968C1358C7FD0001F53D /* SGHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGHotKeyCenter.h; sourceTree = "<group>"; };
+		607F968D1358C7FD0001F53D /* SGHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGHotKeyCenter.m; sourceTree = "<group>"; };
+		607F968E1358C7FD0001F53D /* SGKeyCodeTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKeyCodeTranslator.h; sourceTree = "<group>"; };
+		607F968F1358C7FD0001F53D /* SGKeyCodeTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKeyCodeTranslator.m; sourceTree = "<group>"; };
+		607F96901358C7FD0001F53D /* SGKeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGKeyCombo.h; sourceTree = "<group>"; };
+		607F96911358C7FD0001F53D /* SGKeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGKeyCombo.m; sourceTree = "<group>"; };
+		607F96961358D2360001F53D /* next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = next.scpt; sourceTree = "<group>"; };
+		607F96971358D2360001F53D /* toggle_play_pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = toggle_play_pause.scpt; sourceTree = "<group>"; };
+		607F96981358D2360001F53D /* previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = previous.scpt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		607F95F01358B8310001F53D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607F964D1358BE6F0001F53D /* ShortcutRecorder.framework in Frameworks */,
+				607F96491358BE390001F53D /* Carbon.framework in Frameworks */,
+				607F96171358BBC20001F53D /* MacRuby.framework in Frameworks */,
+				607F95F81358B8310001F53D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		607F95E81358B8300001F53D = {
+			isa = PBXGroup;
+			children = (
+				607F95FC1358B8310001F53D /* spotify remote */,
+				607F95F61358B8310001F53D /* Frameworks */,
+				607F95F41358B8310001F53D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		607F95F41358B8310001F53D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				607F95F31358B8310001F53D /* spotify remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		607F95F61358B8310001F53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				607F964C1358BE6F0001F53D /* ShortcutRecorder.framework */,
+				607F96481358BE390001F53D /* Carbon.framework */,
+				607F96161358BBC20001F53D /* MacRuby.framework */,
+				607F95F71358B8310001F53D /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		607F95FC1358B8310001F53D /* spotify remote */ = {
+			isa = PBXGroup;
+			children = (
+				607F960C1358B8310001F53D /* AppDelegate.rb */,
+				607F964E1358C00E0001F53D /* HotkeyCallbackController.rb */,
+				607F96581358C20A0001F53D /* ShortcutRemoteBridge.h */,
+				607F96591358C20A0001F53D /* ShortcutRemoteBridge.m */,
+				607F96051358B8310001F53D /* Resources */,
+				607F96091358B8310001F53D /* Other Sources */,
+				607F95FD1358B8310001F53D /* Supporting Files */,
+			);
+			path = "spotify remote";
+			sourceTree = "<group>";
+		};
+		607F95FD1358B8310001F53D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				607F96891358C7EF0001F53D /* SGHotkey */,
+				607F95FE1358B8310001F53D /* spotify remote-Info.plist */,
+				607F95FF1358B8310001F53D /* InfoPlist.strings */,
+				607F96021358B8310001F53D /* spotify remote-Prefix.pch */,
+				607F96031358B8310001F53D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		607F96051358B8310001F53D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				607F96961358D2360001F53D /* next.scpt */,
+				607F96971358D2360001F53D /* toggle_play_pause.scpt */,
+				607F96981358D2360001F53D /* previous.scpt */,
+				607F96061358B8310001F53D /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		607F96091358B8310001F53D /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				607F960A1358B8310001F53D /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		607F96891358C7EF0001F53D /* SGHotkey */ = {
+			isa = PBXGroup;
+			children = (
+				607F968A1358C7FD0001F53D /* SGHotKey.h */,
+				607F968B1358C7FD0001F53D /* SGHotKey.m */,
+				607F968C1358C7FD0001F53D /* SGHotKeyCenter.h */,
+				607F968D1358C7FD0001F53D /* SGHotKeyCenter.m */,
+				607F968E1358C7FD0001F53D /* SGKeyCodeTranslator.h */,
+				607F968F1358C7FD0001F53D /* SGKeyCodeTranslator.m */,
+				607F96901358C7FD0001F53D /* SGKeyCombo.h */,
+				607F96911358C7FD0001F53D /* SGKeyCombo.m */,
+			);
+			name = SGHotkey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		607F95FB1358B8310001F53D /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 607F96131358B8310001F53D /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		607F95F21358B8310001F53D /* spotify remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 607F96101358B8310001F53D /* Build configuration list for PBXNativeTarget "spotify remote" */;
+			buildPhases = (
+				607F95EF1358B8310001F53D /* Sources */,
+				607F95F01358B8310001F53D /* Frameworks */,
+				607F95F11358B8310001F53D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "spotify remote";
+			productName = "spotify remote";
+			productReference = 607F95F31358B8310001F53D /* spotify remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		607F95EA1358B8300001F53D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "http://www.ortatherox.com";
+			};
+			buildConfigurationList = 607F95ED1358B8300001F53D /* Build configuration list for PBXProject "spotify remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 607F95E81358B8300001F53D;
+			productRefGroup = 607F95F41358B8310001F53D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				607F95F21358B8310001F53D /* spotify remote */,
+				607F95FB1358B8310001F53D /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		607F95F11358B8310001F53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607F96011358B8310001F53D /* InfoPlist.strings in Resources */,
+				607F96081358B8310001F53D /* MainMenu.xib in Resources */,
+				607F960B1358B8310001F53D /* rb_main.rb in Resources */,
+				607F960D1358B8310001F53D /* AppDelegate.rb in Resources */,
+				607F964F1358C00E0001F53D /* HotkeyCallbackController.rb in Resources */,
+				607F96991358D2360001F53D /* next.scpt in Resources */,
+				607F969A1358D2360001F53D /* toggle_play_pause.scpt in Resources */,
+				607F969B1358D2360001F53D /* previous.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		607F95EF1358B8310001F53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				607F96041358B8310001F53D /* main.m in Sources */,
+				607F965A1358C20A0001F53D /* ShortcutRemoteBridge.m in Sources */,
+				607F96921358C7FD0001F53D /* SGHotKey.m in Sources */,
+				607F96931358C7FD0001F53D /* SGHotKeyCenter.m in Sources */,
+				607F96941358C7FD0001F53D /* SGKeyCodeTranslator.m in Sources */,
+				607F96951358C7FD0001F53D /* SGKeyCombo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		607F95FF1358B8310001F53D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607F96001358B8310001F53D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		607F96061358B8310001F53D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				607F96071358B8310001F53D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		607F960E1358B8310001F53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		607F960F1358B8310001F53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		607F96111358B8310001F53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../3rdparty/SGHotKeysLib/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spotify remote/spotify remote-Prefix.pch";
+				INFOPLIST_FILE = "spotify remote/spotify remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		607F96121358B8310001F53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../3rdparty/SGHotKeysLib/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spotify remote/spotify remote-Prefix.pch";
+				INFOPLIST_FILE = "spotify remote/spotify remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		607F96141358B8310001F53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		607F96151358B8310001F53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		607F95ED1358B8300001F53D /* Build configuration list for PBXProject "spotify remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607F960E1358B8310001F53D /* Debug */,
+				607F960F1358B8310001F53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		607F96101358B8310001F53D /* Build configuration list for PBXNativeTarget "spotify remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607F96111358B8310001F53D /* Debug */,
+				607F96121358B8310001F53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		607F96131358B8310001F53D /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				607F96141358B8310001F53D /* Debug */,
+				607F96151358B8310001F53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 607F95EA1358B8300001F53D /* Project object */;
+}
