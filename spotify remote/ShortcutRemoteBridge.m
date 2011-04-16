@@ -90,7 +90,7 @@
 }
 
 
-- (void)applicationWillTerminate:(NSNotification *)theNotification {
+- (void)finalize {
 	[[NSUserDefaults standardUserDefaults] setObject:[pauseHotKey.keyCombo plistRepresentation] forKey:@"PauseHotkey"];
   [[NSUserDefaults standardUserDefaults] setObject:[togglePlayHotKey.keyCombo plistRepresentation] forKey:@"TogglePlayHotkey"];
   [[NSUserDefaults standardUserDefaults] setObject:[previousHotKey.keyCombo plistRepresentation] forKey:@"PreviousHotkey"];

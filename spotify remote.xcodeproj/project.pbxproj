@@ -25,6 +25,15 @@
 		607F96991358D2360001F53D /* next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 607F96961358D2360001F53D /* next.scpt */; };
 		607F969A1358D2360001F53D /* toggle_play_pause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 607F96971358D2360001F53D /* toggle_play_pause.scpt */; };
 		607F969B1358D2360001F53D /* previous.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 607F96981358D2360001F53D /* previous.scpt */; };
+		607F96CC1358EE6E0001F53D /* OSStartupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96CB1358EE6E0001F53D /* OSStartupController.m */; };
+		607F96D01359F7FC0001F53D /* spotify_remote_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 607F96CF1359F7FC0001F53D /* spotify_remote_menu_icon.png */; };
+		607F96E81359FE610001F53D /* INPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96E01359FE610001F53D /* INPopoverController.m */; };
+		607F96E91359FE610001F53D /* INPopoverWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96E31359FE610001F53D /* INPopoverWindow.m */; };
+		607F96EA1359FE610001F53D /* INPopoverWindowFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96E51359FE610001F53D /* INPopoverWindowFrame.m */; };
+		607F96EB1359FE610001F53D /* INAlwaysKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 607F96E71359FE610001F53D /* INAlwaysKeyWindow.m */; };
+		607F96ED1359FE750001F53D /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607F96EC1359FE750001F53D /* Quartz.framework */; };
+		607F96F9135A0F9E0001F53D /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607F96F8135A0F9E0001F53D /* Preferences.xib */; };
+		607F96FB135A0FE10001F53D /* PreferencesController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 607F96FA135A0FE10001F53D /* PreferencesController.rb */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +63,21 @@
 		607F96961358D2360001F53D /* next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = next.scpt; sourceTree = "<group>"; };
 		607F96971358D2360001F53D /* toggle_play_pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = toggle_play_pause.scpt; sourceTree = "<group>"; };
 		607F96981358D2360001F53D /* previous.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = previous.scpt; sourceTree = "<group>"; };
+		607F96CA1358EE6E0001F53D /* OSStartupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSStartupController.h; sourceTree = "<group>"; };
+		607F96CB1358EE6E0001F53D /* OSStartupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSStartupController.m; sourceTree = "<group>"; };
+		607F96CF1359F7FC0001F53D /* spotify_remote_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spotify_remote_menu_icon.png; sourceTree = "<group>"; };
+		607F96DF1359FE610001F53D /* INPopoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverController.h; sourceTree = "<group>"; };
+		607F96E01359FE610001F53D /* INPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPopoverController.m; sourceTree = "<group>"; };
+		607F96E11359FE610001F53D /* INPopoverControllerDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverControllerDefines.h; sourceTree = "<group>"; };
+		607F96E21359FE610001F53D /* INPopoverWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverWindow.h; sourceTree = "<group>"; };
+		607F96E31359FE610001F53D /* INPopoverWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPopoverWindow.m; sourceTree = "<group>"; };
+		607F96E41359FE610001F53D /* INPopoverWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INPopoverWindowFrame.h; sourceTree = "<group>"; };
+		607F96E51359FE610001F53D /* INPopoverWindowFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INPopoverWindowFrame.m; sourceTree = "<group>"; };
+		607F96E61359FE610001F53D /* INAlwaysKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INAlwaysKeyWindow.h; sourceTree = "<group>"; };
+		607F96E71359FE610001F53D /* INAlwaysKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INAlwaysKeyWindow.m; sourceTree = "<group>"; };
+		607F96EC1359FE750001F53D /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		607F96F8135A0F9E0001F53D /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		607F96FA135A0FE10001F53D /* PreferencesController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = PreferencesController.rb; path = Classes/controller/PreferencesController.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				607F96ED1359FE750001F53D /* Quartz.framework in Frameworks */,
 				607F964D1358BE6F0001F53D /* ShortcutRecorder.framework in Frameworks */,
 				607F96491358BE390001F53D /* Carbon.framework in Frameworks */,
 				607F96171358BBC20001F53D /* MacRuby.framework in Frameworks */,
@@ -91,6 +116,7 @@
 		607F95F61358B8310001F53D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				607F96EC1359FE750001F53D /* Quartz.framework */,
 				607F964C1358BE6F0001F53D /* ShortcutRecorder.framework */,
 				607F96481358BE390001F53D /* Carbon.framework */,
 				607F96161358BBC20001F53D /* MacRuby.framework */,
@@ -102,10 +128,10 @@
 		607F95FC1358B8310001F53D /* spotify remote */ = {
 			isa = PBXGroup;
 			children = (
+				607F96CE1358EE710001F53D /* cocoa bridges */,
 				607F960C1358B8310001F53D /* AppDelegate.rb */,
 				607F964E1358C00E0001F53D /* HotkeyCallbackController.rb */,
-				607F96581358C20A0001F53D /* ShortcutRemoteBridge.h */,
-				607F96591358C20A0001F53D /* ShortcutRemoteBridge.m */,
+				607F96FA135A0FE10001F53D /* PreferencesController.rb */,
 				607F96051358B8310001F53D /* Resources */,
 				607F96091358B8310001F53D /* Other Sources */,
 				607F95FD1358B8310001F53D /* Supporting Files */,
@@ -116,6 +142,7 @@
 		607F95FD1358B8310001F53D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607F96DE1359FE3D0001F53D /* INPopoverController */,
 				607F96891358C7EF0001F53D /* SGHotkey */,
 				607F95FE1358B8310001F53D /* spotify remote-Info.plist */,
 				607F95FF1358B8310001F53D /* InfoPlist.strings */,
@@ -128,6 +155,8 @@
 		607F96051358B8310001F53D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				607F96F8135A0F9E0001F53D /* Preferences.xib */,
+				607F96CF1359F7FC0001F53D /* spotify_remote_menu_icon.png */,
 				607F96961358D2360001F53D /* next.scpt */,
 				607F96971358D2360001F53D /* toggle_play_pause.scpt */,
 				607F96981358D2360001F53D /* previous.scpt */,
@@ -157,6 +186,33 @@
 				607F96911358C7FD0001F53D /* SGKeyCombo.m */,
 			);
 			name = SGHotkey;
+			sourceTree = "<group>";
+		};
+		607F96CE1358EE710001F53D /* cocoa bridges */ = {
+			isa = PBXGroup;
+			children = (
+				607F96CA1358EE6E0001F53D /* OSStartupController.h */,
+				607F96CB1358EE6E0001F53D /* OSStartupController.m */,
+				607F96581358C20A0001F53D /* ShortcutRemoteBridge.h */,
+				607F96591358C20A0001F53D /* ShortcutRemoteBridge.m */,
+			);
+			name = "cocoa bridges";
+			sourceTree = "<group>";
+		};
+		607F96DE1359FE3D0001F53D /* INPopoverController */ = {
+			isa = PBXGroup;
+			children = (
+				607F96DF1359FE610001F53D /* INPopoverController.h */,
+				607F96E01359FE610001F53D /* INPopoverController.m */,
+				607F96E11359FE610001F53D /* INPopoverControllerDefines.h */,
+				607F96E21359FE610001F53D /* INPopoverWindow.h */,
+				607F96E31359FE610001F53D /* INPopoverWindow.m */,
+				607F96E41359FE610001F53D /* INPopoverWindowFrame.h */,
+				607F96E51359FE610001F53D /* INPopoverWindowFrame.m */,
+				607F96E61359FE610001F53D /* INAlwaysKeyWindow.h */,
+				607F96E71359FE610001F53D /* INAlwaysKeyWindow.m */,
+			);
+			name = INPopoverController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +290,9 @@
 				607F96991358D2360001F53D /* next.scpt in Resources */,
 				607F969A1358D2360001F53D /* toggle_play_pause.scpt in Resources */,
 				607F969B1358D2360001F53D /* previous.scpt in Resources */,
+				607F96D01359F7FC0001F53D /* spotify_remote_menu_icon.png in Resources */,
+				607F96F9135A0F9E0001F53D /* Preferences.xib in Resources */,
+				607F96FB135A0FE10001F53D /* PreferencesController.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +309,11 @@
 				607F96931358C7FD0001F53D /* SGHotKeyCenter.m in Sources */,
 				607F96941358C7FD0001F53D /* SGKeyCodeTranslator.m in Sources */,
 				607F96951358C7FD0001F53D /* SGKeyCombo.m in Sources */,
+				607F96CC1358EE6E0001F53D /* OSStartupController.m in Sources */,
+				607F96E81359FE610001F53D /* INPopoverController.m in Sources */,
+				607F96E91359FE610001F53D /* INPopoverWindow.m in Sources */,
+				607F96EA1359FE610001F53D /* INPopoverWindowFrame.m in Sources */,
+				607F96EB1359FE610001F53D /* INAlwaysKeyWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +442,7 @@
 				607F96121358B8310001F53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		607F96131358B8310001F53D /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +451,7 @@
 				607F96151358B8310001F53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
